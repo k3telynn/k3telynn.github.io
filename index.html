@@ -3,30 +3,103 @@
 
 <head>
     <title>katelyn's awesome website</title>
-    
+    <style>
+        body {
+            background: rgb(255, 105, 180);
+            color: rgb(255, 182, 193);
+            padding: 10px;
+            font-family: arial;
+        }
+
+        img{
+            width:67%;
+        }
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav {
+            background: rgba(216, 122, 150, 0.637);
+            margin: 0 auto;
+            margin-bottom: 20px;
+            display: flex;
+            padding: 10px;
+        }
+
+        nav h1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-image: none;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(243, 243, 243);
+            display: flex;
+        }
+
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+
+        .sidebar img {
+            width: 200px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+
+        h2,
+        h3 {
+            margin: 0px;
+        }
+    </style>
+
 </head>
 
 <body>
-<div id="all-contents"></div>
-<nav>
-    <h1>All about Katelyn</h1>
-    <ul><li><a href="index.html""> Home</a></li></a> <a href="portfolio.html"> Portfolio</a>
-    <nav/>
-    <main>
-        <div class="sidebar"></div>
-        <img src="Pink.jpg">
-        <div class="content"></div>
-        <h2>Katelyn Wilson</h2>
-        <p>student at Fontainebleau High School</p>
-        <div class="interests"></div>
-        <h3>intrests</h3>
+    <div id="all-contents"></div>
+    <nav>
+        <h1>All about Katelyn</h1>
         <ul>
-    <li>shopping</li>
-    <li>playing volleyball</li>
-    <li>investing in stocks</li> 
-        </ul>
-    </main>
-</div>
+            <li><a href="index.html""> Home</a></li></a> <a href=" portfolio.html"> Portfolio</a>
+                <nav />
+                <main>
+                    <div class="sidebar"></div>
+                    <img src="Pink.jpg">
+                    <div class="content"></div>
+                    <h2>Katelyn Wilson</h2>
+                    <p>student at Fontainebleau High School</p>
+                    <div class="interests"></div>
+                    <h3>intrests</h3>
+                    <ul>
+                        <li>shopping</li>
+                        <li>playing volleyball</li>
+                        <li>investing in stocks</li>
+                    </ul>
+                </main>
+                </div>
 
 </body>
 
